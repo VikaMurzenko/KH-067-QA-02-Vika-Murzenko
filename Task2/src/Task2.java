@@ -47,7 +47,6 @@ public class Task2 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Type any three words!");
-        Scanner words = new Scanner(System.in);
         String input = scanner.nextLine();
         String[] splitResult = input.split(",");
         System.out.println(splitResult[0]);
