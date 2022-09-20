@@ -6,7 +6,6 @@ public class UniversityGroup {
     private int endYear;
     private String[] studentArray;
 
-
     public UniversityGroup(String groupName, int startYear) {
         this.groupName = groupName;
         this.startYear = startYear;
@@ -19,7 +18,6 @@ public class UniversityGroup {
         this.studentArray = studentArray;
         this.endYear = startYear + 5;
     }
-
     public String getGroupName() {
         return groupName;
     }
@@ -63,6 +61,7 @@ public class UniversityGroup {
         System.out.println("Group name: " + getGroupName());
         System.out.println("Start of studying: " + getStartYear());
         System.out.println("Graduation: " + getEndYear());
+        System.out.println();
         System.out.println("List of students:");
         String[] students = getStudentArray();
         for (int i = 0; i < students.length; i++) {
